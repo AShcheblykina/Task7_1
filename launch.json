@@ -6,7 +6,8 @@
       "type": "chrome", // Название браузера, который должен быть установлен и в котором будет открыт тестируемый файл
       "request": "launch", // Команда, которую необходимо выполнить дебагеру
       "file": "index.html", // Название файла, к которому применить команду из пункта "request"
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "program": "${index.html}"
     }
   ]
 }
